@@ -1,0 +1,96 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+  color: black;
+
+  &.active {
+    color: #646cff;
+  }
+}
+
+body {
+  font-family: 'Golos Text Variable', sans-serif;
+  margin: 0;
+  padding: 0;
+  place-items: center;
+  min-width: 360px;
+  min-height: 100vh;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+}
+
+.m-1 {
+  margin-bottom: 10px;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.gap-5 {
+  gap: 50px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
