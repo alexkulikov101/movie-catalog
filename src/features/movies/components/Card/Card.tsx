@@ -2,6 +2,7 @@ import { FC } from 'react'
 
 import { Movie } from 'types/Movies'
 import { PLACEHOLDER_IMAGE } from 'features/movies/constants'
+import './styles.scss'
 
 interface Props {
   movie: Movie

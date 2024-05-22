@@ -1,5 +1,6 @@
-import './styles.scss'
 import { FC } from 'react'
+
+import './styles.scss'
 
 interface Props {
   currentPage: number
