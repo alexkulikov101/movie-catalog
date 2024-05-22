@@ -6,7 +6,7 @@
 npm install
 ```
 
-## Set the OMDb api key to .env file in the root folder
+## In the root folder create .env file and set the OMDb api key
 
 ```
 VITE_OMDB_KEY=apikey
